@@ -14,15 +14,13 @@
 <body>
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#hero">Main</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#about-me">About Me <span class="sr-only">(current)</span></a>
-                </li>
+                
                 <li class="nav-item">
                     <a class="nav-link" href="#my-work">My Work</a>
                 </li>
@@ -32,14 +30,18 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
-                
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about-me">About Me <span class="sr-only">(current)</span></a>
+                </li>
+
             </ul>
         </div>
       </nav>
 
         <!--Jumbotron-->
-      <div class="jumbotron" id="about-me">
-            <h1 class="display-4">Elizaveta Anufrieva</h1><img src="./images/IMG20221015101939.jpg" alt="profile image of a woman with brown hair" class="picture">
+      <div class="jumbotron" id="hero">
+            <h1 class="display-4">Elizaveta Anufrieva</h1>
+            <img src="./images/IMG20221015101939.jpg" alt="profile image of a woman with brown hair" class="picture">
                 <p class="lead">A 22 year old front-end web developer located in Manchester, UK! 
                      In July of  2022 graduated from University of Manchester with a 2:1 in Politics, Economics and Philosophy and a first in the dissertation. After this, I began my web development journey through Trilogy Skills Bootcamp. Aiming to finish the bootcamp in March 2023. </p>
             <hr class="my-4">
@@ -53,7 +55,7 @@
     <div class="card-group" id="my-work">
         
         <div class="card" style="width: 30rem;">
-            <img src="./images/safar-safarov-koOdUvfGr4c-unsplash.jpg" class="accessibility" alt="image of two screens">
+            <img src="./images/arnold-francisca-f77Bh3inUpE-unsplash (1).jpg" class="accessibility" alt="image of two screens">
                 <div class="card1-body">
                    
                     <h4>Accessibility challenge</h4>                
@@ -64,7 +66,7 @@
 
 
         <div class="card" style="width: 30rem;">
-            <img src="./images/arnold-francisca-f77Bh3inUpE-unsplash (1).jpg" class="prework" alt="computer with code on it">
+            <img src="./images/02-portfolio-2.jpg" class="prework" alt="computer with code on it">
                 <div class="card2-body">
                     <h4>Prework Study Guide</h4>
                     <p class="card2-text">This was my first bootcamp project within which I created a prework stusying guide using HTML, CSS and JavaScript.</p>
@@ -82,6 +84,79 @@
                 </div>
         </div>
     </div>
+
+
+    <!--Skills section-->
+    <section class="skills" id="skills">
+        <h2 class="skillsheading">Skills Learned</h2>
+    
+        <div class="form-check1">
+            <input class="form-check-input1" type="checkbox" value="completed" id="flexCheckCheckedDisabled" checked disabled>
+            <label class="form-check-label1" for="flexCheckCheckedDisabled">
+            HTML
+            </label>
+        </div>
+        <div class="form-check1">
+            <input class="form-check-input1" type="checkbox" value="completed" id="flexCheckCheckedDisabled" checked disabled>
+            <label class="form-check-label1" for="flexCheckCheckedDisabled">
+            CSS
+            </label>
+        </div>
+        <div class="form-check1">
+            <input class="form-check-input1" type="checkbox" value="completed" id="flexCheckCheckedDisabled" checked disabled>
+            <label class="form-check-label1" for="flexCheckCheckedDisabled">
+            JavaScript
+            </label>
+        </div>
+        <div class="form-check1">
+            <input class="form-check-input1" type="checkbox" value="not completed" id="flexCheckDisabled" disabled>
+            <label class="form-check-label1" for="flexCheckDisabled">
+            React
+            </label>
+        </div>
+        <div class="form-check1">
+            <input class="form-check-input1" type="checkbox" value="not completed" id="flexCheckDisabled" disabled>
+            <label class="form-check-label1" for="flexCheckDisabled">
+            APIs, AJAX and JSON
+            </label>
+        </div>
+        <div class="form-check1">
+            <input class="form-check-input1" type="checkbox" value="not completed" id="flexCheckDisabled" disabled>
+            <label class="form-check-label1" for="flexCheckDisabled">
+            Node.js
+            </label>
+        </div>
+    </section>
+
+<!--About me/Contact me-->
+    <footer>
+        <div class="row" id="about-me">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">About Me</h5>
+                  <p class="card-text">My fascination with coding began during my course in university, in which I tried out and econometrics course. During this, I learned R and my interest flourished. I began to take extra python courses outside of my univrsity in order to pursue my interests. After trying out a data anlyst posiytion, I realised that I was much more intrigued by the coding aspect that I was the analytics. As a result- I joined the Trillogy Skills Bootcamp in order to push my career towards my desired direction. I cannot wait to see where this journey takes me!</p>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6" id="contact">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Contact me</h5>
+                  <p class="card-text" id="journey">Follow my journey along below!</p>
+                  <section class="links">
+                  <a href="https://github.com/eliza-an" class="btn btn-primary">Follow My Github</a>
+                  <a href="mailto:lololxox@hotmail.com" class="btn btn-primary">Email Me</a>
+                  <a href="tel:01234567785345" class="btn btn-primary">Call Me</a>
+                </section>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </footer>
 
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
