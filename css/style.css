@@ -4,3 +4,51 @@
     border-radius: 10%;
 }
 
+
+/*card formatting */
+.accessibility{
+    height: 350px;
+    overflow: hidden;
+    display: grid;
+    grid-area: accessibility;
+    
+}
+
+
+.prework{
+    height: 350px;
+    display: grid;
+    overflow: hidden;
+    grid-area: prework;
+}
+
+.portfolio{
+    height: 350px;
+    display: grid;
+    overflow: hidden;
+    grid-area: portfolio ;
+}
+.card{ 
+    padding: 10px;
+    border: 1px solid rgb(190, 181, 181) !important;
+
+
+    
+}
+
+.card-group{
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr  !important;
+   justify-items:center !important;
+   padding: 20px;
+
+}
+
+.workheading{
+    
+    padding: 4px;
+    line-height: 1;
+    border-bottom: 2px solid currentColor;
+    display: inline-block;
+    line-height: 0.85;
+}
